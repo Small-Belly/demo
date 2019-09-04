@@ -1,0 +1,223 @@
+/* 满屏显示 */
+html,body {
+	height: 100%;
+	width: 100%;
+	max-width: 640px;
+	min-width: 300px;
+}
+body {
+	padding-bottom:  50px;
+
+}
+/*##################
+##    顶部通栏    ##
+##################*/
+.hm_topBar {
+	width: 100%;
+	height: 45px;
+	background: url("../images/header-bg.png") repeat-x;
+	background-size: 1px solid #ccc;
+	position: absolute;
+	max-width: 640px;
+	min-width: 300px;
+}
+.hm_topBar > [class^="icon_"] {
+	position: absolute;
+	height: 18px;
+	width: 18px;
+	top: 0;
+	/* padding: 5px 10px; */
+	background-clip: content-box;
+	background-origin: content-box;
+	/* border: 1px solid; */
+}
+.hm_topBar > .icon_search {
+	top: 14px;
+	left: 26px;
+	background: url("../images/home_search.png");
+	background-size: 100% auto;
+	/* background-position: -20px 0; */
+}
+/* .hm_topBar > .icon_menu {
+	right: 0;
+	background-position: -60px 0;
+} */
+.hm_topBar > form {
+	width: 100%;
+	height: 44px;
+	padding: 0 10px;
+}
+.hm_topBar > form > input {
+	width: 100%;
+	border: 1px solid rgb(139, 132, 132,.7);
+	border-radius: 4px;
+	height: 30px;
+	margin-top: 7px;
+	border-radius: 14px;
+	outline: none;
+	padding-left: 36px;
+	background: rgba(239, 239, 240, 0.566);
+	/* border: none; */
+
+}
+/*####################
+##       左侧栏     ##
+#####################*/
+.hm_category {
+	height: 100%;
+	overflow: hidden;
+	padding-top: 45px;
+	max-width: 640px;
+	min-width: 300px;
+}
+.hm_category_left {
+	width: 80px;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+}
+.hm_category_left > ul {
+	font-size: 13px;
+	font-weight: 400;
+}
+.hm_category_left > ul > li {
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.hm_category_left > ul > li > a {
+	display: block;
+}
+.hm_category_left > ul > li.now {
+	border-left:3px solid #845F3F;
+	font-weight: 600;
+	/* border-right: none; */
+}
+.hm_category_left > ul > li.now > a {
+	color: #A0846B;
+}
+/*####################
+##       右侧栏     ##
+#####################*/
+.hm_topBar > h3 {
+	text-align: center;
+	line-height: 44px;
+	font-weight: normal;
+}
+.hm_category_right {
+	height: 100%;
+	overflow: hidden;
+}
+.hm_category_right_box {
+	padding: 0 10px;
+}
+.hm_category_right_box > .banner {
+	display: block;
+	width: 100%;
+	padding-top: 10px;
+}
+.hm_category_right_box > .banner > img {
+	width: 100%;
+}
+.hot_cat {
+	margin-top: 10px;
+}
+.hot_cat > h3 {
+	font-size: 12px;
+}
+.hot_cat > ul {
+	width: 100%;
+}
+.hot_cat > ul > li {
+	width: 33.333%;
+	float: left;
+}
+.hot_cat > ul > li > a {
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+}
+.hot_cat > ul > li > a > img {
+	display: block;
+	width: 80%;
+	height: 120px;
+	margin: 0 auto;
+}
+
+
+
+/*--------------- 底部----------------  */
+.m-container .m-footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height: 45px;
+	z-index: 1000;
+	background:#fff;
+	max-width: 640px;
+	min-width: 300px;
+} 
+.m-container .m-footer .m-footer-box {
+	width: 100%;
+	height: 50px;
+	max-width: 640px;
+	min-width: 300px;
+}
+.m-footer-box .tabbar-item {
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #ccc;
+	display: flex;
+}
+.tabbar-item a  {
+	width: 25%;
+	height: 50px;
+	/* border-right: 1px solid; */
+	text-align: center;
+}
+.tabbar-item a span {
+	display: inline-block;
+	margin-top: 4px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: rgb(132, 95, 63);
+	line-height: 14.4px;
+}
+.tabbar-item a i{
+	display: block;
+	width: 24px;
+	height: 24px;
+	/* border: 1px solid; */
+	margin-top: 4px;
+	/* 居中 */
+	/* display:table-cell;
+    text-align:center;
+	vertical-align:middle; */
+}
+.tabbar-item .tab-01 {
+	background: url("../images/img.png");
+	background-position: 0 0;
+	background-size: 100%;
+}
+.tabbar-item .tab-02 {
+	background: url("../images/img.png");
+	background-position: 0 -72px;
+	background-size: 100%;
+}
+.tabbar-item .tab-03 {
+	background: url("../images/img.png");
+	background-position: 0 -144px;
+	background-size: 100%;
+}
+.tabbar-item .tab-04 {
+	background: url("../images/img.png");
+	background-position: 0 -190px;
+	background-size: 100%;
+}
+
