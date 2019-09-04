@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- 
+		user-scalable 是否缩放
+		width=device-width 布局视口与可见视口宽度相同
+		initial-scale 初始缩放比列
+	 -->
+	<meta name="viewport"
+		content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="./style/base.css">
+	<link rel="stylesheet" href="./style/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="./style/index.css">
+</head>
+
+<body>
+	<div id="layout">
+		<!-- 头部 -->
+		<header class="header">
+			<div class="header_box">
+				<form action="#" class="form">
+					<span class="icon_search"></span>
+					<input type="searchs" placeholder="搜一搜">
+				</form>
+				<a href="javascript:;" class="navigator-msg-img">
+					<img src="./images/std_titlebar_home_message.png" alt="">
+				</a>
+			</div>
+		</header>
+		<!-- 轮播图 -->
+		<div class="banner swiper-container" id="swiper1">
+			<ul class="clearfix swiper-wrapper">
+				<li class="swiper-slide"><a href="#"><img src="./images/banner01.jpg" alt=""></a></li>
+				<li class="swiper-slide"><a href="#"><img src="./images/banner02.jpg" alt=""></a></li>
+				<li class="swiper-slide"><a href="#"><img src="./images/banner03.jpg" alt=""></a></li>
+				<li class="swiper-slide"><a href="#"><img src="./images/banner04.jpg" alt=""></a></li>
+				<li class="swiper-slide"><a href="#"><img src="./images/banner05.jpg" alt=""></a></li>
+			</ul>
+			<div class="swiper-pagination" style="width: 100px;float: right">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</div>
+			<!--分页器-->
+		</div>
+		<nav class="nav">
+			<ul class="item-tab clearfix">
+				<li>
+					<a href="#">
+						<img src="./images/img-tab01.png" alt="">
+						<span>每日新品</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./images/img-tab02.png" alt="">
+						<span>众筹</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./images/img-tab03.png" alt="">
+						<span>限时抢购</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./images/img-tab04.png" alt="">
+						<span>热销榜单</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./images/img-tab05.png" alt="">
+						<span>随便逛逛</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- 商品主体 -->
+		<div class="main">
+			<!-- 主体分类 -->
+			<div class="main-classify">
+				<div class="main-item clearfix">
+					<div class="main-item-box">
+						<h3>饮食热销榜</h3>
+						<span>爆款大放送&nbsp;美味齐分享</span>
+						<img src="./images/main-top-02.png" alt="">
+					</div>
+					<div class="main-item-box">
+						<h3>扮靓新加家全靠它</h3>
+						<span>居家好物低至9.9元</span>
+						<img src="./images/main-top-03.png"" alt="">
+					</div>
+					<div class=" main-item-box">
+						<h3>教你花式解暑</h3>
+						<span>人气单品低至49元</span>
+						<img src="./images/main-top-04.png"" alt="">
+					</div>
+					<div class=" main-item-box">
+						<h3>清爽夏日&nbsp;渗透五感</h3>
+						<span>爆款低至9.9元</span>
+						<img src="./images/main-top-01.png"" alt="">
+					</div>
+				</div>
+			</div>
+			<!-- 广告 -->
+			<div class=" main-advertising">
+						<img src="./images/main-advertising.png" alt="">
+			</div>
+					<!-- 限时购 -->
+					<section class="product_box">
+						<!-- 头部 -->
+						<div class="product_box_tit clearfix">
+							<div class="f_left">
+								<span class="sk_name">限时购</span>
+								<!-- <div class="sk_tit_time">
+								<i></i>
+								<span>09点场</span>
+							</div> -->
+								<div class="sk_time">
+									<span>0</span>
+									<span>0</span>
+									<span>:</span>
+									<span>0</span>
+									<span>0</span>
+									<span>:</span>
+									<span>0</span>
+									<span>0</span>
+								</div>
+							</div>
+							<div class="f_right more">更多&nbsp;>
+							</div>
+						</div>
+						<!-- 内容 -->
+						<div class="product_box_con swiper-container" id="swiper2">
+							<ul class="clearfix swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="javascript:;"><img src="./images/main-top-01.png" alt=""></a>
+									<p>&yen;19.99</p>
+									<p>&yen;100.00</p>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;"><img src="./images/main-top-02.png" alt=""></a>
+									<p>&yen;99.00</p>
+									<p>&yen;199.00</p>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;"><img src="./images/main-top-03.png" alt=""></a>
+									<p>&yen;88.00</p>
+									<p>&yen;100.00</p>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;"><img src="./images/main-top-04.png" alt=""></a>
+									<p>&yen;10.00</p>
+									<p>&yen;100.00</p>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;"><img src="./images/main-top-01.png" alt=""></a>
+									<p>&yen;10.00</p>
+									<p>&yen;100.00</p>
+								</li>
+								<li class="swiper-slide">
+									<a href="javascript:;"><img src="./images/main-top-01.png" alt=""></a>
+									<p>&yen;10.00</p>
+									<p>&yen;100.00</p>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<div class=" main-advertising">
+						<img src="./images/main-advertising2.png" alt="">
+					</div>
+					<section class="product-main">
+						<ul>
+							<li>
+								<div class="product-bg">
+									<div class="product-img"></div>
+								</div>
+								<div class="product-tit">漫威钢铁侠MARK50机器人</div>
+								<!-- 价格 -->
+								<span class="product-price">
+									&yen;&nbsp;1965
+								</span>
+							</li>
+							<li>
+								<div class="product-bg">
+									<div class="product-img"></div>
+								</div>
+								<div class="product-tit">漫威钢铁侠MARK50机器人</div>
+								<!-- 价格 -->
+								<span class="product-price">
+									&yen;&nbsp;1965
+								</span>
+							</li>
+							<li>
+								<div class="product-bg">
+									<div class="product-img"></div>
+								</div>
+								<div class="product-tit">漫威钢铁侠MARK50机器人</div>
+								<!-- 价格 -->
+								<span class="product-price">
+									&yen;&nbsp;1965
+								</span>
+							</li>
+							<li>
+								<div class="product-bg">
+									<div class="product-img"></div>
+								</div>
+								<div class="product-tit">漫威钢铁侠MARK50机器人</div>
+								<!-- 价格 -->
+								<span class="product-price">
+									&yen;&nbsp;1965
+								</span>
+							</li>
+							<li>
+								<div class="product-bg">
+									<div class="product-img"></div>
+								</div>
+								<div class="product-tit">漫威钢铁侠MARK50机器人</div>
+								<!-- 价格 -->
+								<span class="product-price">
+									&yen;&nbsp;1965
+								</span>
+							</li>
+							<li>
+								<div class="product-bg">
+									<div class="product-img"></div>
+								</div>
+								<div class="product-tit">漫威钢铁侠MARK50机器人</div>
+								<!-- 价格 -->
+								<span class="product-price">
+									&yen;&nbsp;1965
+								</span>
+							</li>
+						</ul>
+					</section>
+					<section class="product-main">
+						<ul>
+							<li>
+								<div class="product-bg">
+									<div class="product-img"></div>
+								</div>
+								<div class="product-tit">漫威钢铁侠MARK50机器人</div>
+								<!-- 价格 -->
+								<span class="product-price">
+									&yen;&nbsp;1965
+								</span>
+							</li>
+							<li>
+								<div class="product-bg">
+									<div class="product-img"></div>
+								</div>
+								<div class="product-tit">漫威钢铁侠MARK50机器人</div>
+								<!-- 价格 -->
+								<span class="product-price">
+									&yen;&nbsp;1965
+								</span>
+							</li>
+							<li>
+								<div class="product-bg">
+									<div class="product-img"></div>
+								</div>
+								<div class="product-tit">漫威钢铁侠MARK50机器人</div>
+								<!-- 价格 -->
+								<span class="product-price">
+									&yen;&nbsp;1965
+								</span>
+							</li>
+							<li>
+								<div class="product-bg">
+									<div class="product-img"></div>
+								</div>
+								<div class="product-tit">漫威钢铁侠MARK50机器人</div>
+								<!-- 价格 -->
+								<span class="product-price">
+									&yen;&nbsp;1965
+								</span>
+							</li>
+							<li>
+								<div class="product-bg">
+									<div class="product-img"></div>
+								</div>
+								<div class="product-tit">漫威钢铁侠MARK50机器人</div>
+								<!-- 价格 -->
+								<span class="product-price">
+									&yen;&nbsp;1965
+								</span>
+							</li>
+							<li>
+								<div class="product-bg">
+									<div class="product-img"></div>
+								</div>
+								<div class="product-tit">漫威钢铁侠MARK50机器人</div>
+								<!-- 价格 -->
+								<span class="product-price">
+									&yen;&nbsp;1965
+								</span>
+							</li>
+						</ul>
+					</section>
+				
+		</main>
+		<footer class="m-footer">
+			<div class="m-footer-box">
+				<div class="tabbar-item">
+					<a href="./index.html">
+						<i class="tab-01"></i>
+						<span>首页</span>
+					</a>
+					<a href="./category.html">
+						<i class="tab-02"></i>
+						<span>分类</span>
+					</a>
+					<a href="javascript;;">
+						<i class="tab-03"></i>
+						<span>购物车</span>
+					</a>
+					<a href="./mine.html">
+						<i class="tab-04"></i>
+						<span>个人</span>
+					</a>
+					
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+
+
+
+	<script src="js/swiper.min.js"> </script>
+	<script src="js/common.js"></script>
+	<script src="js/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 
+		user-scalable 是否缩放
+		width=device-width 布局视口与可见视口宽度相同
+		initial-scale 初始缩放比列
+	 -->
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0"/>
+	<title>登录</title>
+	<link rel="stylesheet" type="text/css" href="./style/base.css">
+	<link rel="stylesheet" type="text/css" href="./style/login.css">
+</head>
+<body>
+	<!-- 登录页面主体 -->
+	<div class="ym_layout">
+		<!-- 头部 -->
+		<div class="ym_header clearfix" >
+			<h2 class="f_left">&lt;</h2>
+			<h2 class="f_right">+</h2>
+		</div>
+		<!-- 中间表单 -->
+		<div class="ym_main">
+			<div class="ym_title">
+				<p>欢迎登录</p>
+			</div>
+			<div class="ym_form">
+				<input type="text" placeholder="请输入账号/手机号/邮箱"
+				class="user">
+				<input type="text" placeholder="密码" class="pwd">
+			</div>
+			<div class="ym_sign">
+				<button>登&nbsp;&nbsp;&nbsp;录</button>
+			</div>
+			<span class="ym_other clearfix">
+				<span class="f_left">忘记密码</span>
+				<span class="f_right">注册账号</span>
+			</span>
+		</div>
+		<!-- 第三方登录 -->
+		<div class="ym_quick">
+			<div class="quick_header">
+				<p>-------其它登录方式--------</p>
+			</div>
+			<div class="login-links">
+				<a href="#" title="微信登录">
+					<i><img src="./images/weixin.png" alt=""></i>
+					微信
+				</a>
+				<a href="#" title="微博登录">
+					<i><img src="./images/weibo.png" alt=""></i>
+					微博
+				</a>
+				<a href="#" title="手机号登录">
+					<i><img src="./images/shouji.png" alt=""></i>
+					手机号
+				</a>
+			</div>
+		</div>
+		<div class="footer">
+			<p>
+				登录代表您已同意
+				<a href="#">有卖账号使用协议</a>、
+				<a href="#">隐私政策</a>
+				&nbsp;和&nbsp;
+				<a href="#">有卖用户协议</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+html , body {
+	height: 100%;
+}
+/*整体布局*/
+.ym_layout {
+	width: 100%;
+	max-height: 640px;
+	min-width: 300px;
+	padding: 10px 15px 0;
+	height: 100%;
+	background: url(../images/bg-login.png) no-repeat;
+	background-size: 100% auto;
+}
+.ym_layout .ym_header {
+}
+/*中间表单*/
+.ym_layout .ym_main {
+	width: 100%;
+}
+.ym_main .ym_title {
+	text-align: center;
+	padding-top:60px;
+	padding-bottom: 10px;
+	color: #666;
+	font-size: 32px;
+}
+.ym_main .ym_form {
+	width: 70%;
+	margin-bottom: 30px;
+}
+.ym_main .ym_form input {	
+	width: 100%;
+	padding: 20px 5px;
+	outline: none;
+	font-size: 20px;
+	border: none;
+	border-bottom: 1px solid;
+	line-height: normal;
+	display: block;
+	background: none;
+}
+.ym_main .ym_form input:first-child {
+	margin-bottom: 10px;
+}
+.ym_main .ym_sign {
+	width: 70%;
+	margin-bottom: 10px;
+}
+.ym_main .ym_sign button {
+	width: 100%;
+	height: 50px;
+	-webkit-border-radius:25px;/*适配以webkit为核心的浏览器(chrome、safari等)*/
+  	-moz-border-radius:25px;/*适配firefox浏览器*/
+  	-ms-border-radius:25px;/*适配IE浏览器*/
+  	-o-border-radius:25px;/*适配opera浏览器*/
+  	border-radius:25px;/*适配所有浏览器*/
+	outline: none;
+	border: 0;
+	font-size: 18px;
+	background: #D3AB70;
+	color: #fff;
+}
+/*忘记密码 注册账号*/
+.ym_main .ym_other {
+	width: 70%;
+	display: block;
+	padding: 12px 5px;
+}
+.ym_main .ym_other span {
+	display: inline-block;
+	color: #666;
+	font-size: 14px;
+}
+/*第三方登录*/
+.ym_layout .ym_quick {
+	width: 70%;
+	padding-top: 40px;
+}
+.ym_quick .quick_header {
+	text-align: center;
+	padding-bottom: 18px;
+}
+.ym_quick .login-links {
+	text-align: center;
+}
+.ym_quick .login-links a{
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+}
+.ym_quick .login-links a:frist:child {
+}
+.ym_quick .login-links a:last:child {
+}	
+.ym_quick .login-links a i{
+	display: block;
+	width: 100%;
+}
+.ym_quick .login-links a i img {
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+.ym_layout .footer {
+	width: 95%;
+	text-align: center;
+	margin-top: 50px;
+	color: #bfbfbf;
+}
+.ym_layout .footer a{
+	color: #8a8a8a;
+	text-decoration: underline;
+}
